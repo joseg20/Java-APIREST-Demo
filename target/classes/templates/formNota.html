@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Subir Nota</title>
+</head>
+<body>
+<h1>Subir Nota</h1>
+<form action="#" th:action="@{/subirNota}" method="post">
+    <p>ID del estudiante: <input type="text" th:name="studentId"/></p>
+    <p>Nota: <input type="text" th:name="nota"/></p>
+    <input type="submit" value="Subir"/>
+</form>
+</body>
+</html>
